@@ -1,4 +1,4 @@
-# Fast and effective quality control for MinION and PromethION sequencing data
+# Python Refactoring of the R-Script for fast and effective quality control for MinION and PromethION sequencing data
 
 - [What and Why?](https://github.com/roblanf/minion_qc#what-and-why)
 - [Quick start](https://github.com/roblanf/minion_qc#quick-start)
@@ -11,6 +11,8 @@
 - [Output details for PromethION](https://github.com/roblanf/minion_qc#output-details-for-promethion)
 
 ## Citation
+
+Original Code: https://github.com/roblanf/minion_qc
 
 If you use MinIONQC in your published work, please cite  
 

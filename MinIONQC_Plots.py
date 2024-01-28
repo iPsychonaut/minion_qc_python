@@ -703,6 +703,9 @@ def plot_length_distributions(multi_data, output_dir, plot_format, p1m, q):
     plt.ylabel('Density', size = p1m * 15)
     plt.title('Length Distributions Across Flowcells', size = p1m * 25)
     plt.legend(title='Flowcells', fontsize=p1m * 12)
+    
+    # Save the plot
+    plt.tight_layout()
     plt.savefig(f"{output_dir}/length_distributions.{plot_format}")
     plt.close()
 
@@ -752,6 +755,8 @@ def plot_yield_over_time_multi(multi_data, output_dir, mux_intervals, plot_forma
     plt.ylabel('Total Yield in Gigabases (GB)', size=p1m*15)
     plt.title('Yield Over Time - Multiple Flowcells', size=p1m*25)
     plt.legend(title='Flowcell', fontsize=p1m*12)
+    
+    # Save the plot
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f"yield_over_time_multi.{plot_format}"))
     plt.close()
@@ -766,6 +771,8 @@ def plot_yield_by_length_multi(multi_data, output_dir, plot_format, p1m, q):
     plt.ylabel('Total Yield in Gigabases (GB)', size=p1m*15)
     plt.title('Yield by Length - Multiple Flowcells', size=p1m*25)
     plt.legend(title='Flowcell', fontsize=p1m*12)
+    
+    # Save the plot
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f"yield_by_length_multi.{plot_format}"))
     plt.close()

@@ -1,0 +1,174 @@
+All reads:
+  N50_length: 31587
+  bases_gt_len:
+    10000: !!python/object/apply:numpy.core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - i8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      Wx7iwwAAAAA=
+    20000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      wpcmnwAAAAA=
+    50000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /7GKLAAAAAA=
+    100000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Ijb9AAAAAAA=
+    200000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      +osHAAAAAAA=
+    500000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    1000000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+  max_length: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    +osHAAAAAAA=
+  mean_length: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id002 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    FdmUYH5pw0A=
+  mean_q: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id002
+  - !!binary |
+    MQxafM9HHUA=
+  median_length: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id002
+  - !!binary |
+    AAAAAAAonEA=
+  median_q: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id002
+  - !!binary |
+    QmDl0CLbG0A=
+  min_length: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAAAA=
+  reads_gt_len:
+    10000: 114575
+    20000: 72409
+    50000: 11970
+    100000: 145
+    200000: 1
+    500000: 0
+    1000000: 0
+  total_bases: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    EcEQ2wAAAAA=
+  total_reads: 369787
+  ultra_bases: 3675093677
+  ultra_reads: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    sAkFAAAAAAA=
+Q>=7.0:
+  N50_length: 32202
+  bases_gt_len:
+    10000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      J1H0vgAAAAA=
+    20000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yZ4rnAAAAAA=
+    50000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      clM6LAAAAAA=
+    100000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EwnzAAAAAAA=
+    200000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    500000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    1000000: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+  max_length: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    R1YCAAAAAAA=
+  mean_length: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id002
+  - !!binary |
+    +h30u+rG0kA=
+  mean_q: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id002
+  - !!binary |
+    WM3JZqomJUA=
+  median_length: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id002
+  - !!binary |
+    AAAAAIB+y0A=
+  median_q: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id002
+  - !!binary |
+    xSCwcmiRJUA=
+  min_length: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    DgAAAAAAAAA=
+  reads_gt_len:
+    10000: 110607
+    20000: 70757
+    50000: 11889
+    100000: 143
+    200000: 0
+    500000: 0
+    1000000: 0
+  total_bases: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    G1Vy0wAAAAA=
+  total_reads: 184499
+  ultra_bases: 3453219088
+  ultra_reads: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ET0CAAAAAAA=
+input file: /mnt/c/Users/theda/OneDrive/Desktop/MinIONQC/example_input_minion/RB7_D3/sequencing_summary.txt
+notes: ultralong reads refers to the largest set of reads with N50>100KB

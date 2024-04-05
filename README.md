@@ -1,14 +1,14 @@
 # Python Refactoring of the R-Script for fast and effective quality control for MinION and PromethION sequencing data
 
-- [What and Why?](https://github.com/roblanf/minion_qc#what-and-why)
-- [Quick start](https://github.com/roblanf/minion_qc#quick-start)
-- [Commandline options](https://github.com/roblanf/minion_qc#commandline-options)
-- [Installation](https://github.com/roblanf/minion_qc#installation)
-    - [Dependencies](https://github.com/roblanf/minion_qc#dependencies)
-- [Output details for MinION](https://github.com/roblanf/minion_qc#output-details-for-minion)
-  - [Analysing a single flowcell](https://github.com/roblanf/minion_qc#analysing-a-single-flowcell)
-  - [Analysing multiple flowcells](https://github.com/roblanf/minion_qc#analysing-multiple-flowcells)
-- [Output details for PromethION](https://github.com/roblanf/minion_qc#output-details-for-promethion)
+- [What and Why?](https://github.com/iPsychonaut/minion_qc_python#what-and-why)
+- [Quick start](https://github.com/iPsychonaut/minion_qc_python#quick-start)
+- [Commandline options](https://github.com/iPsychonaut/minion_qc_python#commandline-options)
+- [Installation](https://github.com/iPsychonaut/minion_qc_python#installation)
+    - [Dependencies](https://github.com/iPsychonaut/minion_qc_python#dependencies)
+- [Output details for MinION](https://github.com/iPsychonaut/minion_qc_python#output-details-for-minion)
+  - [Analysing a single flowcell](https://github.com/iPsychonaut/minion_qc_python#analysing-a-single-flowcell)
+  - [Analysing multiple flowcells](https://github.com/iPsychonaut/minion_qc_python#analysing-multiple-flowcells)
+- [Output details for PromethION](https://github.com/iPsychonaut/minion_qc_python#output-details-for-promethion)
 
 ## Citation
 
@@ -132,18 +132,18 @@ You can just download or copy/paste the raw Python scripts from here: https://ra
 Or you can get it with `curl` or `wget`:
 
 ```shell
-curl https://raw.githubusercontent.com/roblanf/minion_qc/master/MinIONQC.py > MinIONQC.py
+curl https://raw.githubusercontent.com/iPsychonaut/minion_qc_python/master/MinIONQC.py > MinIONQC.py
 
-curl https://raw.githubusercontent.com/roblanf/minion_qc/master/MinIONQC.py > MinIONQC_Plots.py
+curl https://raw.githubusercontent.com/iPsychonaut/minion_qc_python/master/MinIONQC.py > MinIONQC_Plots.py
 
-wget https://raw.githubusercontent.com/roblanf/minion_qc/master/MinIONQC.py -O MinIONQC.py
+wget https://raw.githubusercontent.com/iPsychonaut/minion_qc_python/master/MinIONQC.py -O MinIONQC.py
 
-wget https://raw.githubusercontent.com/roblanf/minion_qc/master/MinIONQC.py -O MinIONQC_Plots.py
+wget https://raw.githubusercontent.com/iPsychonaut/minion_qc_python/master/MinIONQC.py -O MinIONQC_Plots.py
 ```
 
 **To get the script as well as the example input and output**
 
-Download the `.zip` or `.tar.gz` file from here: https://github.com/roblanf/minion_qc/releases/latest/
+Download the `.zip` or `.tar.gz` file from here: https://github.com/iPsychonaut/minion_qc_python/releases/latest/
 
 #### Dependencies
 

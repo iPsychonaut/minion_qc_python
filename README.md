@@ -127,7 +127,7 @@ The script requires minimal installation: you just need the script, and a few Py
 
 **To get the script**
 
-You can just download or copy/paste the raw Python scripts from here: https://raw.githubusercontent.com/ipsychonaut/minion_qc/master/MinIONQC.py and https://raw.githubusercontent.com/ipsychonaut/minion_qc/master/MinIONQC_Plots.py; 
+You can just download or copy/paste the raw Python scripts from here: https://raw.githubusercontent.com/ipsychonaut/minion_qc_python/master/MinIONQC.py and https://raw.githubusercontent.com/ipsychonaut/minion_qc_python/master/MinIONQC_Plots.py; 
 
 Or you can get it with `curl` or `wget`:
 
